@@ -1,0 +1,47 @@
+
+USERS
++id (int)
++first_name (varchar)
++last_name (varchar)
++email (varchar)
++mobile_no (varchar)
++password (varchar)
++role (varchar)
++gender (varchar)
++profile_pic (blob)
+
+LECTURE DATA
+
++table_id (int)
++topics_Covered (varchar)
++lecture_data (blob)
++rating (varchar)
++tommorrow_agenda (varchar)
++subject (varchar)
++teacher_id (int)
++teacher_name (varchar)
+
+TEACHERS
++teacher_id (int)
++teacher_name (varchar)
++subject (varchar)
++department (varchar)
++Academic_year (int)
+
+FEEDBACK
++id (int)
++Message (varchar)
++time (timestamp)
++first_name (varchar)
++last_name (varchar)
+
+LEAVE_APPLICATION
++teacher_id (int)
++reason (varchar)
++from_date (date)
++to_date (date)
++status (varchar)
+
+
+
+

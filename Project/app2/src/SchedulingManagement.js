@@ -23,7 +23,7 @@ function SchedulingManagement()
     <td>
     <input type='number'/><br/>
     </td>
-    </tr>
+    </tr>           
     <tr>
     <td>
         Semester: 
@@ -42,7 +42,7 @@ function SchedulingManagement()
     </tr>
     <tr>
     <td>
-        End Date: 
+        End Date:
     </td>
     <td>
     <input type='date'/><br/>
